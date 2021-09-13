@@ -1,0 +1,837 @@
+body
+{
+    margin: 0;
+    font-size: 14px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#menu-ngang/* Thanh MENU ngang */
+{
+    width: 90%;
+    height: 55px;
+    margin: 0px auto;
+    background-color: #ffffff;
+}
+
+#menu-ngang .icon-microsoft/*Logo Microsoft*/
+{
+    width: 22px;
+    margin: 16px 0px 0px 18px ;
+    float: left;
+}
+
+#menu-ngang .microsoft
+{
+    font-size: 17px;
+    margin: 15px 0px 0px 14px ;
+    float: left;
+    color: #727272;
+}
+
+#menu-ngang ul/*Danh sách Từ Microsoft 365 đến Support*/
+{
+    margin: 0px 0px 0px 20px ;
+    padding: 0;
+    float: left;
+}
+
+#menu-ngang ul li
+{
+    list-style: none;
+    float: left;
+}
+
+#menu-ngang ul li a
+{
+    display: block;
+    width: auto;
+    height: 55px;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 55px;
+    font-size: 13px;
+    color: #000000;
+}
+
+#menu-ngang ul li a:hover
+{
+    text-decoration: underline 1px;
+}
+
+#menu-ngang #all-microsoft/*Mục lục tất cả về Microsoft*/
+{
+    height: 55px;
+    line-height: 55px;
+    float: left;
+    margin: 0px 0px 0px 405px ;
+    border: #ffffff;
+    font-size: 11px;
+}
+
+#menu-ngang #all-microsoft:hover
+{
+    text-decoration: underline 4px;
+}
+
+#menu-ngang #box-search/*Ô tìm kiếm*/
+{
+    width: auto;
+    height: 55px;
+    float: left;
+    margin: 0px 0px 0px 20px ;
+}
+
+#menu-ngang #box-search .search
+{
+    float: left;
+    line-height: 55px;
+    margin: 0;
+    font-size: 13px;
+}
+
+#menu-ngang #box-search .search:hover
+{
+    text-decoration: underline 1px;
+}
+
+#menu-ngang #box-search .icon-search/*ICON tìm kiếm*/
+{
+    float: left;
+    width: 20px;
+    margin: 17px 0px 0px 5px ;
+}
+
+#menu-ngang #box-cart/*Ô rỏ hàng*/
+{
+    width: auto;
+    height: 55px;
+    float: left;
+    margin: 0px 0px 0px 20px ;
+}
+
+#menu-ngang #box-cart .cart
+{
+    float: left;
+    line-height: 55px;
+    margin: 0;
+    font-size: 13px;
+}
+
+#menu-ngang #box-cart .cart:hover
+{
+    text-decoration: underline 1px;
+}
+
+#menu-ngang #box-cart .icon-cart/*ICON rỏ hàng*/
+{
+    float: left;
+    width: 20px;
+    margin: 17px 0px 0px 5px ;
+}
+
+#menu-ngang #box-accout/*Ô tài khoản*/
+{
+    width: auto;
+    height: 55px;
+    float: left;
+    margin: 0px 0px 0px 20px ;
+}
+
+#menu-ngang #box-accout .name-accout
+{
+    float: left;
+    line-height: 55px;
+    margin: 0;
+    font-size: 13px;
+}
+
+#menu-ngang #box-accout .icon-accout/*ICON tài khoản*/
+{
+    float: left;
+    width: 30px;
+    margin: 12px 0px 0px 5px ;
+}
+
+#main
+{
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+}
+
+#main #banner-1/*Tấm BANNER thứ 1*/
+{
+    width: 100%;
+    height: 450px;
+    float: left;
+    background-color: #e8e8e8;
+}
+
+#main #banner-1 #left-banner-1
+{
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin: 155px 0px 0px 80px ;
+}
+
+#main #banner-1 #left-banner-1 .p1
+{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px ;
+}
+
+#main #banner-1 #left-banner-1 .p2
+{
+    width: auto;
+    height: auto;
+    font-weight: 500;
+    margin: 15px 0px 20px 0px ;
+}
+
+#main #banner-1 #left-banner-1 .p3
+{
+    float: left;
+    width: 220px;
+    height: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    margin: 0px 0px 0px 0px ;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+#main #banner-1 #left-banner-1 .p3:hover
+{
+    margin-top: -10px;
+    box-shadow: 5px 5px 10px 0px #888888;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#main #banner-1 #left-banner-1 .p3:active
+{
+    margin-top: 0px;
+    box-shadow: 0px 0px 0px 0px #888888;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#main #banner-1 img
+{
+    float: right;
+    height: 450px;
+}
+
+#main #box-6-icons/*Menu chưa 6 hộp nhỏ làm bằng Flex Box*/
+{
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+#main #box-6-icons #flex-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 113px;
+}
+
+#main #box-6-icons #flex-box #small-box
+{
+    width: 180px;
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 45px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+#main #box-6-icons #flex-box #small-box:hover
+{
+    
+    box-shadow: 7px 7px 10px 0px #888888;
+    margin-top: 35px;
+}
+
+#main #box-6-icons #flex-box #small-box:active
+{
+    box-shadow: 0px 0px 0px 0px #888888;
+    margin-top: 45px;
+}
+
+#main #box-6-icons #flex-box #small-box img
+{
+    width: 40px;
+    display: block;
+    margin: 8px auto;
+}
+
+#main #box-6-icons #flex-box #small-box p
+{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#main #box-4-img/*Menu chưa 3 laptop & 1 gói dịch vụ 365*/
+{
+    width: 100%;
+    height: 380px;
+    float: left;
+}
+
+#main #box-4-img #flex-box-2
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main #box-4-img #flex-box-2 #small-box-2 
+{
+    width: 313px;
+    height: 350px;
+    margin: 0px 14px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+#main #box-4-img #flex-box-2 #small-box-2:hover
+{
+    box-shadow: 8px 10px 10px 0px #888888;
+    margin-top: -10px;
+}
+
+#main #box-4-img #flex-box-2 #small-box-2:active
+{
+    box-shadow: 0px 0px 0px 0px #888888;
+    margin-top: 0px;
+}
+
+#main #box-4-img #flex-box-2 #small-box-2 img
+{
+    width: 100%;
+    float: left;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#main #box-4-img #flex-box-2 #small-box-2 .content
+{
+    font-size: 19px;
+    font-weight: 600;
+    width: 275px;
+    height: auto;
+    margin: 30px 0px 0px 5px ;
+    float: left;
+}
+
+#main #box-4-img #flex-box-2 #small-box-2 p
+{
+    width: 275px;
+    height: auto;
+    margin: 5px 0px 0px 5px ;
+    float: left;
+}
+
+#main #box-4-img #flex-box-2 #small-box-2 a
+{
+    float: left;
+    text-decoration: none;
+    font-weight: 500;
+    color: #2a6fb2;
+    margin: 5px 0px 0px 5px ;
+}
+
+#main #box-4-img #flex-box-2 #small-box-2 a:hover
+{
+    font-weight: 700;
+}
+
+#main #banner-2/*Tấm BANNER thứ 2*/
+{
+    width: 100%;
+    height: 450px;
+    float: left;
+    border-radius: 10px;
+    background-color: #11100f;
+    margin-bottom: 40px;
+}
+
+#main #banner-2 #left-banner-2
+{
+    width: 762px;
+    height: 450px;
+    float: left;
+    margin: 0;
+}
+
+#main #banner-2 #left-banner-2 #game-pass/*GAME PASS*/
+{
+    width: auto;
+    height: 40px;
+    float: left;
+    margin: 110px 0px 0px 80px ;
+    color: #cecece;
+}
+
+#main #banner-2 #left-banner-2 #game-pass img/*LOGO XBOX*/
+{
+    width: 40px;
+    float: left;
+    margin: 0;
+}
+
+#main #banner-2 #left-banner-2 #game-pass h1
+{
+    font-size: 22px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    margin: -2px 0px 0px 0px ;
+    float: left;
+    color: #258ede;
+}
+
+#main #banner-2 #left-banner-2 #game-pass p
+{
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    margin: 9px 0px 0px 6px ;
+    float: left;
+    font-weight: 600;
+    border: 2px solid #258ede;
+    color: #258ede;
+}
+
+#main #banner-2 #left-banner-2 #xbox-game-pass
+{
+    width: 450px;
+    height: 200px;
+    clear: left;
+    margin: 180px 0px 0px 80px ;
+}
+
+#main #banner-2 #left-banner-2 #xbox-game-pass h1
+{
+    margin: 0px 0px 0px 0px ;
+    width: auto;
+    height: auto;
+    float: left;
+    font-size: 34px;
+    font-weight: 600;
+    color: #258ede;
+}
+
+#main #banner-2 #left-banner-2 #xbox-game-pass .p-normal
+{
+    margin: 0px 0px 0px 0px ;
+    width: auto;
+    height: auto;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: #258ede;
+}
+
+#main #banner-2 #left-banner-2 #xbox-game-pass .p-link-1
+{
+    margin: 30px 40px 0px 0px ;
+    width: 132px;
+    height: 40px;
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    color: #191919;
+    background-color: #258ede;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+#main #banner-2 #left-banner-2 #xbox-game-pass .p-link-1:hover
+{
+    margin: 20px 40px 0px 0px ;
+    color: #258ede;
+    background-color: #191919;
+    box-shadow: 8px 8px 13px 0px #000000;
+    font-size: 18px;
+}
+
+#main #banner-2 #left-banner-2 #xbox-game-pass .p-link-1:active
+{
+    margin: 30px 40px 0px 0px ;
+    color: #258ede;
+    background-color: #191919;
+    box-shadow: 0px 0px 0px 0px #000000;
+    font-size: 18px;
+}
+
+#main #banner-2 #left-banner-2 #xbox-game-pass .p-link-2
+{
+    margin: 30px 40px 0px 0px ;
+    width: 200px;
+    height: 40px;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+    color: #258ede;
+    border-radius: 5px;
+    transition: all .4s;
+}
+
+#main #banner-2 #left-banner-2 #xbox-game-pass .p-link-2:hover
+{
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#main #banner-2 #right-banner-2/*Hình ảnh 3 tựa game trong BANNER thứu 2*/
+{
+    height: 450px;
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#main .for-business
+{
+   width: auto;
+   height: auto;
+   clear: left;
+   font-size: 23px;
+   font-weight: 500;
+   margin-bottom: 20px;
+   margin-left: 12px;
+}
+
+#main #box-4-img-thu2
+{
+    width: 100%;
+    height: 380px;
+    clear: left;
+}
+
+#main #box-4-img-thu2 #flex-box-3
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main #box-4-img-thu2 #flex-box-3 #small-box-3
+{
+    width: 313px;
+    height: 350px;
+    margin: 0px 14px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+#main #box-4-img-thu2 #flex-box-3 #small-box-3:hover
+{
+    box-shadow: 8px 10px 15px 0px #888888;
+    margin-top: -10px;
+}
+
+#main #box-4-img-thu2 #flex-box-3 #small-box-3:active
+{
+    box-shadow: 0px 0px 0px 0px #888888;
+    margin-top: 0px;
+}
+
+#main #box-4-img-thu2 #flex-box-3 #small-box-3 img
+{
+    width: 100%;
+    float: left;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#main #box-4-img-thu2 #flex-box-3 #small-box-3 .p1
+{
+    font-size: 19px;
+    font-weight: 600;
+    width: 275px;
+    height: auto;
+    margin: 30px 0px 0px 5px ;
+    float: left;
+}
+
+#main #box-4-img-thu2 #flex-box-3 #small-box-3 .p2
+{
+    width: 275px;
+    height: auto;
+    margin: 5px 0px 0px 5px ;
+    float: left;
+}
+
+#main #box-4-img-thu2 #flex-box-3 #small-box-3 .p3
+{
+    float: left;
+    font-weight: 500;
+    color: #2a6fb2;
+    margin: 5px 0px 0px 5px ;
+}
+
+#main #box-4-img-thu2 #flex-box-3 #small-box-3 .p3:hover
+{
+    font-weight: 700;
+}
+
+#main #covid-19
+{
+    width: 100%;
+    height: 120px;
+    padding-top: 30px;
+    clear: left;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+}
+
+#main #covid-19 .p1
+{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#main #covid-19 .p2
+{
+    width: 100%;
+    text-align: center;
+}
+
+#main #covid-19 .p3
+{
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    transition: all .4s;
+}
+
+#main #covid-19 .p3:hover
+{
+    font-size: 16px;
+    color: #2a6fb2;
+}
+
+#main #banner-3
+{
+    width: 100%;
+    height: 450px;
+    float: left;
+    border-radius: 10px;
+    background-color: #fa5811;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#main #banner-3 img
+{
+    height: 100%;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#main #banner-3 .p1
+{
+    float: left;
+    width: 400px;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 110px 0px 0px 100px ;
+}
+
+#main #banner-3 .p2
+{
+    float: left;
+    width: 477px;
+    font-weight: 400;
+    margin: 20px 0px 30px 100px ;
+}
+
+#main #banner-3 .p3
+{
+    float: left;
+    width: 220px;
+    height: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    margin: 0px 0px 0px 100px ;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+#main #banner-3 .p3:hover
+{
+    margin-top: -10px;
+    font-size: 16px;
+    box-shadow: 8px 10px 10px 0px #201f1e;
+    background-color: #fa5811;
+    color: black;
+    border-radius: 5px;
+}
+
+#main #banner-3 .p3:active
+{
+    margin-top: 0px;
+    font-size: 16px;
+    box-shadow: 0px 0px 0px 0px #201f1e;
+    background-color: #fa5811;
+    color: black;
+    border-radius: 5px;
+}
+
+#main #link-information
+{
+    margin: 0px 0px 20px 180px ;
+    width: auto;
+    height: 25px;
+    float: left;
+}
+
+#main #link-information p
+{
+    width: auto;
+    height: 25px;
+    float: left;
+    line-height: 25px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#main #link-information a
+{
+    width: auto;
+    height: 25px;
+    float: left;
+    margin: 0px 5px;
+}
+
+#main #link-information a img
+{
+    height: 25px;
+}
+
+#footer
+{
+    width: 100%;
+    height: 350px;
+    clear: left;
+    background-color: #f2f2f2;
+}
+
+#footer #flex-box-4
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 60px;
+}
+
+#footer #flex-box-4 ul
+{
+    margin: 0px 20px 0px 20px ;
+    padding: 0;
+    float: left;
+    width: 193px;
+    height: 300px;  
+}
+
+#footer #flex-box-4 ul li
+{
+    list-style: none;
+}
+
+#footer #flex-box-4 ul p
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6a5c59;
+}
+
+#footer #flex-box-4 ul li a
+{
+    text-decoration: none;
+    color: #76757d;
+    font-weight: 450;
+    font-size: 12px;
+}
+
+#footer #flex-box-4 ul li a:hover
+{
+    text-decoration: underline 1px #76757d;
+}
+
+#footer .ul-end
+{
+    margin: 0px 0px 0px 70px ;
+    padding: 0;
+    float: left;
+}
+
+#footer .ul-end .li-end
+{
+    list-style: none;
+    float: left;
+}
+
+#footer .ul-end .li-end a
+{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 10px;
+    color: #76757d;
+    font-weight: 450;
+    font-size: 12px;
+}
+
+#footer .ul-end .li-end a:hover
+{
+    text-decoration: underline 1px #76757d;
+}
+
+#footer .earth
+{
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px 0px 0px ;
+    float: right;
+}
+
+#footer .english
+{
+    width: auto;
+    height: 20px;
+    margin: 0px 75px 0px 10px ;
+    float: right;
+    font-size: 12px;
+}
+
+
+
+
